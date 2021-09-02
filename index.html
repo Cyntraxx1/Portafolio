@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/profile.css">
     <link rel="stylesheet" href="css/skills.css">
+    <link rel="stylesheet" href="css/experiences.css">
     <script defer src='js/app.js'></script>
 </head>
 
@@ -42,11 +43,12 @@
     </header>
 
     <div class="horizontal-padding vertical-padding">
-        <section class="profile">
+        <section class="profile" id="profile">
             <div class="profile-info">
                 <h1 class="profile-title">Hola soy, <br />Esteban Huenteleo</h1>
                 <p class="profile-details">
-                    Soy un apasionado por la arquitectura y desarrollo de software, con 1 año de experiencia en lenguajes básicos de front-end.
+                    Soy un apasionado por la arquitectura y desarrollo de software, con 1 año de experiencia en varios
+                    lenguajes de programación.
                 </p>
                 <button class="profile-btn">
                     Descargar cv
@@ -59,16 +61,58 @@
         </section>
     </div>
 
+    <section class="experiences" id="experience">
+        <img src="img/wave.svg" alt="división" class="wave">
+        <div class="experiences-body">
+            <h2 class="experiences-title">Experiencia</h2>
+            <div class="experiences-grid">
+                <div class="empty"></div>
+                <div class="line"></div>
+                <div class="experience">
+                    <div class="experience-date">2020-2021</div>
+                    <div class="experience-company">Dirección de Salud Municipal El Bosque </div>
+                    <div class="experience-position">Práctica profesional</div>
+                    <div class="experience-description">
+                        Práctica profesional por medio del Instituto Profesional DUOC UC, la cual comenzó en noviembre
+                        de 2020 y finalizo en enero de 2021, donde desarrollé una pagina web con boostrap y aprendi
+                        conceptos basicos de HTML, CSS Y JS.
+                    </div>
+                </div>
+                <div class="experience_left">
+                    <div class="experience-date">2020-2021</div>
+                    <div class="experience-company">Revista D' Magazine Chile</div>
+                    <div class="experience-position">Práctica profesional</div>
+                    <div class="experience-description">
+                        Practicá profesional por medio del Instituto Profesional DUOC UC, que comenzó en febrero de 2020
+                        y termino en abril de 2020, donde administre la página <a href="http://www.chilemagazine.net/"
+                            target="_BLANK">www.chilemagazine.net/</a> trabajando con WordPress, creando polls,
+                        cambiando imagenes y limpiando los archivos basura para un mejor rendimiento.
+                    </div>
+                </div>
+                <div class="line"></div>
+                <div class="empty"></div>
+            </div>
+        </div>
+        <img src="img/wave.svg" alt="división" class="wave wave-bottom">
+    </section>
+
     <div class="horizontal-padding vertical-padding">
-        <section class="skills">
+        <section class="skills" id="skills">
             <h2 class="skills-title">Habilidades</h2>
-                <ul class="skills-list">
-                    <li class="skills-skill">HTML</li>
-                    <li class="skills-skill">CSS</li>
-                    <li class="skills-skill">JavaScript</li>
-                </ul>
+            <ul class="skills-list">
+                <li class="skills-skill">HTML</li>
+                <li class="skills-skill">CSS</li>
+                <li class="skills-skill">JavaScript</li>
+                <li class="skills-skill">WordPress</li>
+            </ul>
         </section>
     </div>
+
+    <section class="contact vertical-padding" id="contact">
+        <h2 class="contact-title">Contacto</h2>
+    </div>
+
+
 </body>
 
 </html>
