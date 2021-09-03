@@ -61,6 +61,12 @@ a {
     margin: 0 auto;
 }
 
+.experience_left {
+    padding:25px;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
 @media (min-width: 950px) {
     .experiences-title {
         text-align: center;
